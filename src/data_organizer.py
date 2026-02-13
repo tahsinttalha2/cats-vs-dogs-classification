@@ -60,7 +60,7 @@ def organize_data(source, destination, split = 0.8):
     print(f"test/dogs: {len(list((destination_path / "test" / "dogs").glob('*.jpg')))} images")
 
 if __name__ == "__main__":
-    source = "/home/tahsinttalha/MLcode/cats-vs-dogs-classification/unorganised_data"
-    destination = "/home/tahsinttalha/MLcode/cats-vs-dogs-classification/data"
+    source = "/home/tahsinttalha/MLcode/cats-vs-dogs-classification/unorganised_data"   # only change this to your source path
+    destination = "/home/tahsinttalha/MLcode/cats-vs-dogs-classification/data"          # only change this to your destination path
 
     organize_data(source, destination, split=0.8)
